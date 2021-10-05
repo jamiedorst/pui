@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
     <div id="App">
+      {/* router to link my pages together */}
       <Router>
         <Switch>
           <Route exact path="/Products" component={Browse} />
