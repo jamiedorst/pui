@@ -1,7 +1,6 @@
 import "./App.css";
 import Navbar from "./navbar.js";
 import couch1 from "./Assets/couch1.png"; // couch image for homepage
-import { Link } from "react-router-dom";
 
 function Homepage() {
   return (
