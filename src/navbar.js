@@ -27,7 +27,11 @@ function Navbar() {
             </h2>
           </li>
           <li className="navItem">
-            <h2>About Us</h2>
+            <h2>
+              <Link style={{ textDecoration: "none" }} to="/About">
+                About Us
+              </Link>
+            </h2>
           </li>
           <li className="navItem">
             <h2>Cart</h2>

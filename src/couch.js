@@ -40,7 +40,7 @@ function Browse() {
         <div className="detailText">
           <h3>Couch Pillow</h3>
           <h5>$89</h5>
-          <h6>Cozy Denim</h6>
+          <h6>Color: Cozy Denim</h6>
           <div className="pillowOptions">
             <div className="colorOption blue"> </div>
             <div className="colorOption yellow"> </div>
@@ -53,7 +53,8 @@ function Browse() {
             <div className="fillOption">MEMORY FOAM</div>
             <div className="fillOption">HYPOALLERGENIC POLY-BLEND</div>
           </div>
-          <button className="filledButton">ADD TO CART</button>
+          <div className="miniLink">What fill should I get?</div>
+          <button className="filledButton inactive">ADD TO CART</button>
           {/* product description */}
           <div className="descSection">
             <h6 className="miniHeader">PRODUCT DESCRIPTION</h6>

@@ -36,8 +36,20 @@ function Browse() {
                 alt="Gray couch showing off Fluff Stuff couch pillows"
               ></img>
             </Link>
-            <h4>Couch Pillow</h4>
-            <h5>$89</h5>
+            <Link
+              style={{ textDecoration: "none" }}
+              className="textLink"
+              to="/CouchPillow"
+            >
+              <h4>Couch Pillow</h4>
+            </Link>
+            <Link
+              style={{ textDecoration: "none" }}
+              className="textLink"
+              to="/CouchPillow"
+            >
+              <h5>$89</h5>
+            </Link>
           </div>
           {/* bed pillow */}
           <div className="browseItem">
