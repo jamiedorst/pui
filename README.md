@@ -1,6 +1,6 @@
 # View the Website
 
-https://jamiedorst-pui.netlify.app
+https://jamiedorst-pui-fluffstuff.netlify.app/
 
 ## Extra Credit
 
