@@ -14,7 +14,7 @@ function Contact() {
           {/* &nbsp; pushes hours to next line */}
           <p id="centerText">
             Have a question, comment, or complaint? We want to hear it! Email us
-            anytime or call during our
+            anytime or call during our business
             hours:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Monday through Friday,
             9am to 5pm.
           </p>

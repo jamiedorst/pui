@@ -1,7 +1,7 @@
 import "./App.css";
 import Homepage from "./homepage.js";
 import Browse from "./browse.js";
-import Product from "./couch.js";
+import Product from "./product.js";
 import About from "./about.js";
 import Faq from "./faq.js";
 import Contact from "./contact.js";

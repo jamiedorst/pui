@@ -41,44 +41,74 @@ function Browse() {
               className="textLink"
               to="/CouchPillow"
             >
-              <h4>Couch Pillow!</h4>
+              <h4>Couch Pillow</h4>
+            </Link>
+            <h5>$89</h5>
+          </div>
+          {/* bed pillow */}
+          <div className="browseItem">
+            <Link
+              style={{ textDecoration: "none" }}
+              className="textLink"
+              to="/BedPillow"
+            >
+              <img
+                className="browseImg"
+                src={bedImg}
+                alt="Cozy bed showing off Fluff Stuff bed pillows"
+              ></img>
             </Link>
             <Link
               style={{ textDecoration: "none" }}
               className="textLink"
-              to="/CouchPillow"
+              to="/BedPillow"
             >
-              <h5>$89</h5>
+              <h4>Bed Pillow</h4>
             </Link>
-          </div>
-          {/* bed pillow */}
-          <div className="browseItem">
-            <img
-              className="browseImg"
-              src={bedImg}
-              alt="Cozy bed showing off Fluff Stuff bed pillows"
-            ></img>
-            <h4>Bed Pillow</h4>
             <h5>$99</h5>
           </div>
           {/* round pillow */}
           <div className="browseItem">
-            <img
-              className="browseImg"
-              src={roundImg}
-              alt="White round Fluff Stuff pillow"
-            ></img>
-            <h4>Round Pillow</h4>
+            <Link
+              style={{ textDecoration: "none" }}
+              className="textLink"
+              to="/RoundPillow"
+            >
+              <img
+                className="browseImg"
+                src={roundImg}
+                alt="White round Fluff Stuff pillow"
+              ></img>
+            </Link>
+            <Link
+              style={{ textDecoration: "none" }}
+              className="textLink"
+              to="/RoundPillow"
+            >
+              <h4>Round Pillow</h4>
+            </Link>
             <h5>$59</h5>
           </div>
           {/* floor pouf pillow */}
           <div className="browseItem">
-            <img
-              className="browseImg"
-              src={poufImg}
-              alt="Brown Fluff Stuff floor pouf"
-            ></img>
-            <h4>Floor Pouf Pillow</h4>
+            <Link
+              style={{ textDecoration: "none" }}
+              className="textLink"
+              to="/FloorPoufPillow"
+            >
+              <img
+                className="browseImg"
+                src={poufImg}
+                alt="Brown Fluff Stuff floor pouf"
+              ></img>
+            </Link>
+            <Link
+              style={{ textDecoration: "none" }}
+              className="textLink"
+              to="/FloorPoufPillow"
+            >
+              <h4>Floor Pouf Pillow</h4>
+            </Link>
             <h5>$109</h5>
           </div>
         </div>
