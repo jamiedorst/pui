@@ -18,7 +18,7 @@ function Browse(props) {
           <h3>All Products</h3>
           <p>
             All of our hand-made pillows come in your choice of four beautiful
-            colors and three luxurious fills
+            colors and three luxurious fills.
           </p>
         </div>
         {/* images and captions */}
