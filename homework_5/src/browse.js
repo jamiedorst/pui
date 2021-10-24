@@ -6,7 +6,7 @@ import bedImg from "./Assets/bed.png"; // bed image for product page
 import roundImg from "./Assets/round.png"; // round image for product page
 import poufImg from "./Assets/pouf.png"; // floor pouf image for product page
 
-function Browse() {
+function Browse(props) {
   return (
     <div>
       <header>
@@ -18,12 +18,12 @@ function Browse() {
           <h3>All Products</h3>
           <p>
             All of our hand-made pillows come in your choice of four beautiful
-            colors and three luxurious fills.
+            colors and three luxurious fills
           </p>
         </div>
         {/* images and captions */}
-        {/* couch pillow */}
         <div id="browseImgs">
+          {/* couch pillow */}
           <div className="browseItem">
             <Link
               style={{ textDecoration: "none" }}
