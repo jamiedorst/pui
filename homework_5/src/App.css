@@ -1,0 +1,379 @@
+#App {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+/*
+
+NAVBAR
+
+*/
+#navUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+#navItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+  margin-left: auto;
+}
+
+.navItem {
+  padding: 20px;
+}
+
+.navItem:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*
+
+HOMEPAGE
+
+*/
+#homepageBackground {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+#homepageImg {
+  width: 55%;
+}
+
+#homepageText {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  align-items: flex-start;
+  position: absolute;
+  top: 23%;
+  left: 24%;
+}
+
+.subPopText {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-size: 2.5vw;
+}
+
+#popText {
+  color: #3bacd0;
+  font-family: "Jost", sans-serif;
+  font-weight: 800;
+  font-size: 15vw;
+  line-height: 100%;
+  margin-left: -1.4%;
+}
+
+.hollowButton {
+  background-color: white;
+  color: #3bacd0;
+  border: 4px solid #3bacd0;
+  font-size: 1.3vw;
+  font-family: "Jost", sans-serif;
+  font-weight: 800;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 3%;
+}
+
+.hollowButton:hover {
+  background-color: #3bacd0;
+  color: white;
+  cursor: pointer;
+}
+
+/*
+
+BROWSE PRODUCTS PAGE
+
+*/
+#browseImgs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.browseItem {
+  padding: 1%;
+}
+
+/*
+
+PRODUCT DETAIL PAGE
+
+*/
+.detailPage {
+  margin-top: 5%;
+  display: flex;
+}
+
+.detailImgs {
+  width: 60%;
+  height: 180vh;
+  overflow-y: scroll;
+}
+
+.detailImg {
+  width: 100%;
+}
+
+.detailText {
+  width: 40%;
+  margin-left: 3%;
+}
+
+.pillowOptions {
+  display: flex;
+}
+
+.colorOption {
+  width: 1.5vw;
+  height: 1.5vw;
+  margin-right: 0.6vw;
+  margin-top: 0.3vw;
+}
+
+.fillOption {
+  width: auto;
+  height: 1.5vw;
+  margin-right: 0.6vw;
+  margin-top: 0.3vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  padding-top: 0.4vw;
+  font-family: "Jost", sans-serif;
+  font-size: 0.75vw;
+  font-weight: 500;
+  border: 1px solid black;
+}
+
+.blue {
+  background-color: #3bacd0;
+  outline: 3px solid black;
+  outline-offset: -1.5px;
+}
+
+.yellow {
+  background-color: #eac84f;
+  outline: 1px solid black;
+}
+
+.white {
+  background-color: #f3f4e8;
+  outline: 1px solid black;
+}
+
+.brown {
+  background-color: #84602a;
+  outline: 1px solid black;
+}
+
+.filledButton {
+  background-color: black;
+  color: white;
+  font-size: 1.2vw;
+  font-family: "Jost", sans-serif;
+  font-weight: 800;
+  padding-top: 0.7vw;
+  padding-bottom: 0.7vw;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  margin-top: 15%;
+  border: none;
+}
+
+.filledButton:hover {
+  cursor: pointer;
+}
+
+.inactive {
+  background-color: gray;
+}
+
+.inactive:hover {
+  cursor: default;
+}
+
+.miniHeader {
+  font-weight: 600;
+  font-size: 0.7vw;
+  margin-top: 0;
+}
+
+.miniLink {
+  font-weight: 400;
+  font-size: 0.7vw;
+  margin-top: 0.5vw;
+  text-decoration: underline;
+}
+
+.reviewSect {
+  margin-bottom: 1vw;
+}
+
+.descText {
+  margin-top: 0.25vw;
+}
+
+.descList {
+  list-style-type: circle;
+  margin-top: 0.25vw;
+}
+
+.descBullet {
+  margin: 0;
+}
+
+.descSection {
+  margin-top: 12%;
+}
+
+.starSection {
+  display: flex;
+  align-items: flex-end;
+}
+
+.star {
+  background: black;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  height: 0.9vw;
+  width: 0.9vw;
+  margin-bottom: 0.1vw;
+}
+
+.stars {
+  display: flex;
+  margin-right: 0.5vw;
+  margin-left: 1vw;
+}
+
+.filledButtonMinor {
+  background-color: black;
+  color: white;
+  font-size: 0.8vw;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  padding-top: 0.3vw;
+  padding-bottom: 0.3vw;
+  padding-left: 1.2vw;
+  padding-right: 1.2vw;
+  border: none;
+}
+
+.filledButtonMinor:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+
+.centerButton {
+  display: flex;
+  justify-content: center;
+}
+
+/* 
+
+ABOUT PAGE
+
+*/
+
+#aboutBackground {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+#aboutImg {
+  width: 55%;
+}
+
+#aboutText {
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+  align-items: flex-start;
+  position: absolute;
+  top: 13.5%;
+}
+
+#miniPopText {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-size: 1.4vw;
+}
+
+#aboutButtons {
+  margin-top: 3vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutButton {
+  width: 8vw;
+}
+
+/* 
+
+FAQ PAGE
+
+*/
+
+#faqSect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55%;
+  margin: auto;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+}
+
+.bottom {
+  margin-top: 3vw;
+  margin-bottom: 5vw;
+}
+
+/* 
+
+CONTACT PAGE
+
+*/
+
+#contactSect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin: auto;
+}
+
+#centerText {
+  text-align: center;
+}
+
+#contactImg {
+  margin-top: 5vw;
+  width: 70vw;
+}
