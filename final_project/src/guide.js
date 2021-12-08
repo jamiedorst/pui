@@ -37,7 +37,6 @@ import front from "./Assets/fan/front.png";
 import buf from "./Assets/fan/buf.png";
 import Navbar from "./navbar.js";
 import Fan from "./fan.js";
-import SimpleFan from "./simple.js";
 import React, { Component } from "react";
 
 const tiles = [
