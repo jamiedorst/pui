@@ -1,6 +1,6 @@
 # View the Website
 
-https://jamiedorst-pui-fluffstuff.netlify.app/
+jamiedorst.github.io/pui/final_project
 
 ## Extra Credit
 
